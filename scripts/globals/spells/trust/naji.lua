@@ -32,8 +32,7 @@ function onMobSpawn(mob)
         [tpz.magic.spell.AYAME] = tpz.trust.message_offset.TEAMWORK_1,
     })
 
-    mob:addSimpleGambit(ai.t.SELF, ai.c.NOT_HAS_TOP_ENMITY, 0,
-                        ai.r.JA, ai.s.SPECIFIC, tpz.ja.PROVOKE)
+	mob:setTrustTPSkillSettings(ai.tp.ASAP, ai.s.RANDOM)
 end
 
 function onMobDespawn(mob)

@@ -40,11 +40,12 @@ function onMobSpawn(mob)
     -- TODO: Better logic than this
     mob:addSimpleGambit(ai.t.SELF, ai.c.NOT_STATUS, tpz.effect.MARCH, ai.r.MA, ai.s.HIGHEST, tpz.magic.spellFamily.MARCH)
     mob:addSimpleGambit(ai.t.SELF, ai.c.NOT_STATUS, tpz.effect.BALLAD, ai.r.MA, ai.s.HIGHEST, tpz.magic.spellFamily.MAGES_BALLAD)
-
+   
+    mob:addSimpleGambit(ai.t.TARGET, ai.c.NOT_STATUS, tpz.effect.ELEGY, ai.r.MA, ai.s.SPECIFIC, tpz.magic.spell.CARNAGE_ELEGY)
     mob:addSimpleGambit(ai.t.PARTY, ai.c.HPP_LT, 75, ai.r.MA, ai.s.HIGHEST, tpz.magic.spellFamily.CURE)
 
     -- Try and ranged attack every 60s
-    mob:addSimpleGambit(ai.t.TARGET, ai.c.ALWAYS, 0, ai.r.RATTACK, 0, 0, 60)
+    mob:addSimpleGambit(ai.t.TARGET, ai.c.ALWAYS, 0, ai.r.RATTACK, 0, 0, 30)
 
     mob:SetAutoAttackEnabled(false)
 end

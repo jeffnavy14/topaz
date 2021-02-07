@@ -552,6 +552,11 @@ tpz.shop =
                 5988,     500,      tpz.ki.RHAPSODY_IN_WHITE,   -- Instant Protect
                 5989,     500,      tpz.ki.RHAPSODY_IN_WHITE,   -- Instant Shell
                 5990,     500,      tpz.ki.RHAPSODY_IN_UMBER,   -- Instant Stoneskin
+			    10178,    50000,      tpz.ki.RHAPSODY_IN_UMBER,   -- Ullegor
+				10123,    50000,    tpz.ki.RHAPSODY_IN_CRIMSON,   -- Sakura
+                10162,    50000,      tpz.ki.RHAPSODY_IN_AZURE,   -- Kupofried
+                10127,    50000,      tpz.ki.RHAPSODY_IN_UMBER,   -- Moogle
+				10119,    50000,      tpz.ki.RHAPSODY_IN_WHITE,   -- Rainemard
         },
         [curio.keys] =
         {
